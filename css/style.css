@@ -329,6 +329,10 @@ input[type=submit]:hover {
     margin-right: auto;
   }
 
+  .work-image:hover {
+    max-width: 75%;
+  }
+
   #ddi{
     grid-column-start: 1;
     grid-column-end: span 1;
@@ -410,8 +414,8 @@ input[type=submit]:hover {
 
   .work-container{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-row-gap: 30px;
   }
 
@@ -442,45 +446,45 @@ input[type=submit]:hover {
     grid-row-end: span 1;
   }
   #meetful{
-    grid-column-start: 1;
+    grid-column-start: 3;
     grid-column-end: span 1;
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: span 1;
   }
   #courum{
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: span 1;
     grid-row-start: 3;
     grid-row-end: span 1;
   }
   #hydrohomie{
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: span 1;
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-row-end: span 1;
   }
   #mealpreppers{
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: span 1;
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-row-end: span 1;
   }
   #collegerecipe{
     grid-column-start: 1;
     grid-column-end: span 1;
-    grid-row-start: 5;
+    grid-row-start: 4;
     grid-row-end: span 1;
   }
   #cup{
     grid-column-start: 2;
     grid-column-end: span 1;
-    grid-row-start: 5;
+    grid-row-start: 4;
     grid-row-end: span 1;
   }
   #bus{
-    grid-column-start: 1;
+    grid-column-start: 3;
     grid-column-end: span 1;
-    grid-row-start: 6;
+    grid-row-start: 4;
     grid-row-end: span 1;
   }
 
